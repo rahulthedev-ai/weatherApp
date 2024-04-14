@@ -68,7 +68,7 @@ function CitiesTable() {
   }, [hasMore, loading, cities]);
 
   const handleSearch = async () => {
-    const apiKey = "31345797b09b2d20c20a82cbef3ec47e";    
+    const apiKey = "";  // your api key    
     if (searchQuery.length > 0) {
       try {
         const searchedData = await axios.get(
@@ -109,7 +109,7 @@ function CitiesTable() {
         async (position) => {
           const { latitude, longitude } = position.coords;
           try {
-            const apiKey = "31345797b09b2d20c20a82cbef3ec47e"; //  "YOUR_API_KEY" with your actual API key
+            const apiKey = ""; //  "YOUR_API_KEY" with your actual API key
             const response = await axios.get(
               `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}`
             );
