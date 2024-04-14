@@ -1,4 +1,3 @@
-Creating a top-notch README.md for your weather app on GitHub involves providing comprehensive information about your project, including its purpose, features, how to use it, installation instructions, technologies used, and more. Below is a template for a high-quality README.md tailored to your project:
 
 ---
 
